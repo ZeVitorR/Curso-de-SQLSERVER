@@ -1,4 +1,6 @@
---CRIANDO TABELA NO DATABASE SUCOS_VENDAS
+--CRIANDO TABELAS NO DATABASE SUCOS_VENDAS
+
+--Tabela de cliente
 
 /*Colunas:
 CPF;
@@ -25,4 +27,24 @@ CREATE TABLE [TABELA DE CLIENTE](
 	[LIMITE DE CREDITO] [MONEY],
 	[VOLUME MINIMO] [FLOAT],
 	[PRIMEIRA COMPRA] [BIT]
-)
+);
+
+--Tabela de produto
+
+/*Colunas:
+código do produto;
+nome do produto;
+embalagem;
+tamanho;
+sabor;
+preço de lista.
+*/
+
+CREATE TABLE [TABELA DE PRODUTO](
+	[CODIGO DO PRODUTO] [VARCHAR] (20) NOT NULL PRIMARY KEY,
+	[NOME DO PRODUTO] [VARCHAR] (50),
+	[EMBALAGEM] [VARCHAR] (50),
+	[TAMANHO] [VARCHAR] (50),
+	[SABOR] [VARCHAR] (50),
+	[PRECO DE LISTA] [SMALLMONEY]
+);
