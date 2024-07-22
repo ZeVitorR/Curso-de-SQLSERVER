@@ -3,13 +3,13 @@
 /*Colunas:
 CPF;
 Nome completo;
-Endereço completo;
+Endereï¿½o completo;
 Data de nascimento;
 Idade;
 Sexo;
-Limite de crédito;
-Volume mínimo de compra de produto;
-Se já realizou alguma compra na empresa.*/
+Limite de credito;
+Volume minimo de compra de produto;
+Se ja realizou alguma compra na empresa.*/
 
 CREATE TABLE [TABELA DE CLIENTE](
 	[CPF] [CHAR] (11),
